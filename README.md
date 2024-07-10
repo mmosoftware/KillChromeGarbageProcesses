@@ -190,8 +190,11 @@ public class ChromeProcessManager
         public int DirGroupCount { get; set; }
     }
 }
-Khởi chạy và quản lý phiên Selenium
-csharp
+
+
+
+Khởi chạy và quản lý phiên Selenium csharp
+
 Sao chép mã
 class Program
 {
@@ -212,9 +215,13 @@ class Program
         driver.Quit();
 
         Console.WriteLine("Press [Enter] to exit the program.");
-        Console.ReadLine();
+        Console.ReadLine();    
     }
 }
+
+
+
+
 Giải thích chi tiết:
 ChromeProcessManager: Lớp này quản lý và kết thúc các tiến trình Chrome không cần thiết. Nó sử dụng một Timer để kiểm tra và dọn dẹp các tiến trình Chrome mỗi 2 giây.
 
